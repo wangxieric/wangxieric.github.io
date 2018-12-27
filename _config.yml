@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Xi Wang"
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   bio              : "PhD Candidate (Information Retrieval, Recommender Systems) at @TerrierTeam, University of Glasgow."
   location         : "Glasgow, Scotland"
   employer         :
