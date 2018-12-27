@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xi Wang / Site Title"
+title                    : "Xi Wang / Eric"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Xi Wang"
 description              : &description "personal description"
 url                      : https://wangxieric.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "Xi Wang"
+  avatar           : "profile.jpg"
+  bio              : "PhD Candidate (Information Retrieval, Recommender Systems) at @TerrierTeam, University of Glasgow."
+  location         : "Glasgow, Scotland"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
@@ -107,7 +107,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "@wangxieric"
   vine             :
   weibo            :
   xing             :
