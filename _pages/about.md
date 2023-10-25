@@ -9,7 +9,7 @@ profile:
   image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>90 high holborn, London, UK</p>
+    <small>90 high holborn, London, UK</small>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
