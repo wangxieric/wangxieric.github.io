@@ -28,7 +28,7 @@
       "position": "Postdoctoral Research Associate",
       "url": "https://example.com",
       "startDate": "2022-06-01",
-      "endDate": "-",
+      "endDate": "Now",
       "summary": "Research on task-oriented dialogue systems, information retrieval and natural language processing.",
       "highlights": [
         ""
@@ -53,10 +53,10 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Co-Recipient of Google research workshop on Action, Task and User Journey ($20,000), together with Prof. Emine Yilmaz",
+      "date": "2022-10-29",
+      "awarder": "Google",
+      "summary": "A workshop grant to support the research on task-oriented dialogue systems. The corresponding research outcomes have been published in AAAI 2023 and EMNLP 2023"
     }
   ],
   "certificates": [],
@@ -64,12 +64,12 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker"
-    },
-    {
       "language": "English",
       "fluency": "Fluent"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native Speaker"
     }
   ],
   "interests": [],
