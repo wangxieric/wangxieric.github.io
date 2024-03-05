@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ucl.ac.uk/'>University College London</a>. <a href='https://wi.cs.ucl.ac.uk/'>Web Intelligence Group</a>.
+subtitle: <a href='https://www.sheffield.ac.uk/'>University of Sheffield</a>. <a href='https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing'>Natural Language Processing Group</a>.
 
 profile:
   align: right
   image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <small>90 high holborn, London, UK</small>
+    <small>CG044 Regent Court (west), Sheffield</small>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -17,4 +17,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-A Postdoctoral researcher at University College London (UCL) with research interests in conversational AI, natural language processing, information retrieval and recommendation systems. Current research project is focusing on "task-oriented dialogue systems" under supervision of [Prof. Emine Yilmaz](https://sites.google.com/site/emineyilmaz/home). I obtained my PhD from University of Glasgow, supervised by [Prof. Iadh Ounis](https://www.dcs.gla.ac.uk/~ounis/) and [Prof. Craig Macdonald](https://www.dcs.gla.ac.uk/~craigm/), with thesis entitled “A framework for leveraging properties of user reviews in recommendation”, which explores the review-based recommendation task and introduced a framework for modeling the personal usefulness of reviews based on their various properties, and for making personalized recommendations based on learned user preferences.
+A lecturer (~Assistant Processor)of Natural Language Processing at The University of Sheffield (TUoS) with research interests in Conversational AI, personalisation, LLMs as well as relevant topics among Natural Language Processing (NLP) and Information Retrieval (IR). Before joining the University of Sheffield, I obtained my PhD from University of Glasgow, supervised by [Prof. Iadh Ounis](https://www.dcs.gla.ac.uk/~ounis/) and [Prof. Craig Macdonald](https://www.dcs.gla.ac.uk/~craigm/) and focusing on the research topic of developing review-enhanced recommender systems. After that, I joined the web intelligence group of University College London (UCL) as a postdoctoral researcher, supervised by [Prof. Emine Yilmaz](https://sites.google.com/site/emineyilmaz/home) and working on the topic of "Task-oriented Dialogue Systems". My exisiting works have been published in top-tier international NLP and IR conferences, including ACL, EMNLP, AAAI, SIGIR, CIKM, WWW and ECIR. During the postdoctoral research period, joined with [Prof. Emine Yilmaz](https://sites.google.com/site/emineyilmaz/home), a research grant with a value of $20,000 was also awarded by Google for developing Knowledge-enriched task-oriented dialogue systems.
