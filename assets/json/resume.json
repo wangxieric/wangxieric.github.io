@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Xi Wang",
-    "label": "Researcher",
+    "label": "Lecturer of NLP",
     "image": "",
-    "email": "xiwang.sch@gmail.com",
+    "email": "xi.wang@sheffield.ac.uk",
     "phone": "+44(0)7749338541",
     "url": "www.xiwangeric.com",
-    "summary": "A computer science researcher focused on the domains of conversational AI, information retrieval, recommender systems and natural language processing.",
+    "summary": "A natural language processing researcher focused on the domains of conversational AI, personlisation, retrieval augmented generation, fairness and relevant research topics in the domain of natural language processing.",
     "location": {
-      "address": "UCL AI Center, 90 high holborn",
-      "postalCode": "WC1V 6LJ",
-      "city": "London",
+      "address": "CG044 Regent Court, Department of Computer Science, the University of Sheffield",
+      "postalCode": "S1 4DT",
+      "city": "Sheffield",
       "countryCode": "UK",
       "region": ""
     },
@@ -24,14 +24,23 @@
   },
   "work": [
     {
+      "name": "NLP group, Department of Computer Science, the University of Sheffield",
+      "position": "Lecturer",
+      "url": "https://example.com",
+      "startDate": "2024-03-01",
+      "endDate": "Now",
+      "summary": "Research on conversational AI, personalisation, retrieval augmented generation and fairness.",
+      "highlights": [
+      ]
+    },
+    {
       "name": "Web Intelligence Group, School of Computer Science, University College London",
       "position": "Postdoctoral Research Associate",
       "url": "https://example.com",
       "startDate": "2022-06-01",
-      "endDate": "Now",
+      "endDate": "2024-03-01",
       "summary": "Research on task-oriented dialogue systems, information retrieval and natural language processing.",
       "highlights": [
-        ""
       ]
     }
   ],
@@ -68,16 +77,7 @@
   "certificates": [],
   "publications": [],
   "skills": [],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Chinese",
-      "fluency": "Native Speaker"
-    }
-  ],
+  "languages": [],
   "interests": [],
   "references": [],
   "projects": []
