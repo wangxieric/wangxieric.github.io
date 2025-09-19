@@ -9,7 +9,7 @@ profile:
   image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <small>CG044 Regent Court (west), Sheffield</small>
+    <small>135 Regent Court (east), Sheffield</small>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
