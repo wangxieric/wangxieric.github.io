@@ -231,6 +231,44 @@ html[data-theme='dark'] .profile img {
 
 
 // ============================================================
+// PUBLICATION PAGE HEADER
+// ============================================================
+
+.pub-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+  }
+
+  .pub-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin: 0.75rem 0;
+
+    span {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--global-theme-color);
+    }
+  }
+
+  .pub-note {
+    font-size: 0.82rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0;
+  }
+}
+
+
+// ============================================================
 // PUBLICATIONS LIST
 // ============================================================
 
@@ -241,18 +279,23 @@ html[data-theme='dark'] .profile img {
     letter-spacing: -0.03em;
   }
 
-  // Year group dividers (publications page)
+  // Year group dividers — prominent, left-aligned, Ruizhe-style
   h2.bibliography {
-    font-family: 'Inter', sans-serif;
-    font-size: 0.7rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
     font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--global-text-color-light) !important;
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1.5rem;
+    letter-spacing: -0.02em;
+    color: var(--global-text-color) !important;
+    border-top: 2px solid var(--global-theme-color);
+    border-bottom: none;
+    padding-top: 0.75rem;
     margin-top: 2.5rem;
-    text-align: right;
+    margin-bottom: 0.5rem;
+    text-align: left;
+
+    span {
+      font-size: 1.6rem;
+    }
   }
 
   ol.bibliography {
@@ -282,6 +325,18 @@ html[data-theme='dark'] .profile img {
         font-weight: 700;
         letter-spacing: -0.01em;
         line-height: 1.4;
+
+        // Linked titles
+        a {
+          color: var(--global-text-color);
+          text-decoration: none;
+          border-bottom: none;
+
+          &:hover {
+            color: var(--global-theme-color);
+            text-decoration: none;
+          }
+        }
       }
 
       .author {
@@ -300,11 +355,17 @@ html[data-theme='dark'] .profile img {
           }
         }
 
+        // Self-author: bold and highlighted
+        > strong {
+          font-weight: 700;
+          color: var(--global-text-color);
+        }
+
+        // Legacy em support
         > em {
           font-style: normal;
-          font-weight: 600;
+          font-weight: 700;
           color: var(--global-text-color);
-          border-bottom: 1px solid var(--global-theme-color);
         }
       }
 
