@@ -1,0 +1,417 @@
+/*******************************************************************************
+ * Custom overrides for Xi Wang's academic website.
+ * Design: Modern & Clean — Inter body, Playfair Display headings.
+ ******************************************************************************/
+
+
+// ============================================================
+// TYPOGRAPHY — BASE
+// ============================================================
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.78;
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+p {
+  line-height: 1.8;
+}
+
+
+// ============================================================
+// NAVBAR
+// ============================================================
+
+.navbar {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  box-shadow: 0 1px 0 var(--global-divider-color);
+  border-bottom: none !important;
+
+  &.navbar-light {
+    .navbar-brand {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      font-style: italic;
+      letter-spacing: -0.02em;
+      color: var(--global-text-color) !important;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding-left: 0.9rem;
+      padding-right: 0.9rem;
+    }
+
+    .navbar-nav .nav-item.active > .nav-link {
+      font-weight: 700;
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+// Dark-mode navbar
+html[data-theme='dark'] .navbar {
+  box-shadow: 0 1px 0 #333;
+}
+
+
+// ============================================================
+// PROFILE (about page)
+// ============================================================
+
+.profile {
+  img {
+    border-radius: 8px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 10px 36px rgba(0, 0, 0, 0.18);
+      transform: translateY(-2px);
+    }
+  }
+
+  .more-info {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 0.84rem;
+    line-height: 1.75;
+    color: var(--global-text-color-light);
+
+    p {
+      font-family: 'Inter', sans-serif !important;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.2rem;
+    }
+
+    a {
+      color: var(--global-theme-color);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+html[data-theme='dark'] .profile img {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+}
+
+
+// ============================================================
+// ABOUT / POST PAGE
+// ============================================================
+
+.post {
+  // Section headers rendered from #### in the markdown
+  h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--global-theme-color) !important;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    margin-top: 1.75rem;
+  }
+
+  // Post subtitle (affiliation line)
+  .post-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.01em;
+  }
+}
+
+
+// ============================================================
+// NEWS TABLE
+// ============================================================
+
+.news {
+  table.table {
+    font-family: 'Inter', sans-serif;
+
+    tr {
+      border-bottom: 1px solid var(--global-divider-color);
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    th[scope="row"] {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.76rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--global-theme-color);
+      white-space: nowrap;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      vertical-align: top;
+    }
+
+    td {
+      font-size: 0.91rem;
+      line-height: 1.6;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      vertical-align: top;
+    }
+  }
+}
+
+// Section heading (e.g. "news" and "selected publications" on about page)
+.news h2,
+.publications h2:not(.bibliography) {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+
+// ============================================================
+// PUBLICATIONS LIST
+// ============================================================
+
+.publications {
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: -0.03em;
+  }
+
+  // Year group dividers (publications page)
+  h2.bibliography {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light) !important;
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1.5rem;
+    margin-top: 2.5rem;
+    text-align: right;
+  }
+
+  ol.bibliography {
+    li {
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--global-divider-color);
+      margin-bottom: 0 !important;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .abbr abbr {
+        border-radius: 3px;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.07em;
+        padding-left: 0.65rem;
+        padding-right: 0.65rem;
+        text-transform: uppercase;
+      }
+
+      .title {
+        font-family: 'Playfair Display', serif;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        line-height: 1.4;
+      }
+
+      .author {
+        font-size: 0.87rem;
+        line-height: 1.6;
+        color: var(--global-text-color-light);
+
+        a {
+          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-text-color-light);
+
+          &:hover {
+            border-bottom-style: solid;
+            color: var(--global-theme-color);
+            text-decoration: none;
+          }
+        }
+
+        > em {
+          font-style: normal;
+          font-weight: 600;
+          color: var(--global-text-color);
+          border-bottom: 1px solid var(--global-theme-color);
+        }
+      }
+
+      .periodical {
+        font-size: 0.87rem;
+        font-style: italic;
+      }
+
+      .links a.btn {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        border-radius: 3px;
+        padding: 0.18rem 0.65rem;
+        transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+
+        &:hover {
+          background-color: var(--global-theme-color) !important;
+          color: white !important;
+          border-color: var(--global-theme-color) !important;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+
+// ============================================================
+// CV PAGE
+// ============================================================
+
+.cv {
+  .card {
+    border: 1px solid var(--global-divider-color);
+    border-left: 3px solid var(--global-theme-color);
+    border-radius: 0 6px 6px 0;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.25rem;
+    transition: box-shadow 0.25s ease;
+
+    &:hover {
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .list-group-item {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+
+      .badge {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        border-radius: 3px;
+        padding: 0.25em 0.55em;
+      }
+    }
+  }
+}
+
+html[data-theme='dark'] .cv .card {
+  box-shadow: none;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  }
+}
+
+
+// ============================================================
+// FOOTER
+// ============================================================
+
+footer.fixed-bottom .container,
+footer.sticky-bottom {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+}
+
+
+// ============================================================
+// SOCIAL ICONS
+// ============================================================
+
+.social .contact-icons {
+  font-size: 3.2rem;
+}
+
+
+// ============================================================
+// BLOCKQUOTE (used on about page for PhD section)
+// ============================================================
+
+blockquote {
+  border-left: 3px solid var(--global-theme-color);
+  background: transparent;
+  padding: 0.75em 1.25em;
+  font-size: 0.95rem;
+
+  p {
+    margin-bottom: 0;
+    line-height: 1.7;
+  }
+}
+
+
+// ============================================================
+// HORIZONTAL RULE
+// ============================================================
+
+hr {
+  border: none;
+  border-top: 1px solid var(--global-divider-color);
+  margin: 1.75rem 0;
+}
+
+
+// ============================================================
+// BADGES ON ABOUT PAGE (research area rows)
+// ============================================================
+
+.post .row {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.93rem;
+  line-height: 1.65;
+
+  strong {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+}
