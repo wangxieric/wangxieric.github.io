@@ -3,95 +3,90 @@
   contents:
     - name: Full Name
       value: Xi Wang
-    - name: Date of Birth
-      value: 21th August, 1994
+    - name: Position
+      value: Lecturer (Assistant Professor) in Natural Language Processing
+    - name: Institution
+      value: University of Sheffield, UK
+    - name: Email
+      value: xi.wang@sheffield.ac.uk
     - name: Languages
       value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: PhD in Computing Science
       institution: University of Glasgow, Glasgow, UK
-      year: 2022
+      year: 2017–2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "Thesis: Review-Based Recommender Systems"
+        - "Supervisors: Prof. Iadh Ounis and Prof. Craig Macdonald"
+        - title: Research Focus
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Developing review-based recommender systems
+            - Modelling users' adoption of information in recommender systems
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Lecturer (Assistant Professor) in Natural Language Processing
+      institution: Department of Computer Science, University of Sheffield, Sheffield, UK
+      year: 2024–now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Leading research on Conversational AI, Information Retrieval, Personalisation, and AI for Mental Health
+        - Supervising PhD students and postdoctoral researchers
+        - Teaching NLP and machine learning courses
+
+    - title: Postdoctoral Research Associate
+      institution: Web Intelligence Group, University College London (UCL), London, UK
+      year: 2022–2024
       description:
-        - Description 1.
-        - Description 2.
+        - Research on task-oriented dialogue systems, information retrieval, and NLP
+        - "Co-recipient of Google Research Workshop Grant ($20,000) with Prof. Emine Yilmaz"
+        - "Supervisor: Prof. Emine Yilmaz"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Grants and Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2022
+      items:
+        - "Google Research Workshop Grant on Action, Task and User Journey — $20,000 (Co-recipient with Prof. Emine Yilmaz)"
+    - year: 2015
+      items:
+        - Gold Medal, Provincial ACM-ICPC International Collegiate Programming Contest
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Conversational AI
       items:
-        - Description 1.
-        - Description 2.
+        - Task-oriented and open-domain dialogue systems
+        - Proactive conversational information seeking
+        - Clarification question generation
+    - title: Information Retrieval
+      items:
+        - Retrieval-augmented generation (RAG)
+        - Neural information retrieval
+        - Evaluation and simulation for IR
+    - title: Personalisation & Recommendation
+      items:
+        - Review-based and multimodal recommendation
+        - Cold-start recommendation
+        - Conversational recommendation systems
+    - title: AI for Mental Health
+      items:
+        - Depression screening with LLMs
+        - Early risk prediction (eRisk)
+        - Clinically-grounded conversational agents
 
-- title: Other Interests
+- title: Professional Service
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u>Programme Committee / Reviewer:</u> ACL, EMNLP, NAACL, SIGIR, CIKM, WWW, ECIR, AAAI, WSDM"
+    - "<u>Workshop Co-organiser:</u> eRisk (CLEF 2025, 2026) — Early Risk Prediction on the Internet"
+
+- title: PhD Supervision
+  type: list
+  contents:
+    - "Actively recruiting PhD students for 2026 entry on topics: proactive conversational information seeking, retrieval-augmented generation, and user simulation."
+    - "To enquire, email xi.wang@sheffield.ac.uk with subject line starting [PhD 2026]."

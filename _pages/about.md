@@ -2,21 +2,65 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.sheffield.ac.uk/'>University of Sheffield</a>. <a href='https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing'>Natural Language Processing Group</a>.
+subtitle: >
+  <a href='https://www.sheffield.ac.uk/'>University of Sheffield</a> &nbsp;·&nbsp;
+  <a href='https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing'>NLP Group</a> &nbsp;·&nbsp;
+  <a href='mailto:xi.wang@sheffield.ac.uk'>xi.wang@sheffield.ac.uk</a>
 
 profile:
   align: right
   image: me.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <small>135 Regent Court (east), Sheffield</small>
+    <p><i class="fas fa-map-marker-alt"></i> &nbsp;CG044 Regent Court</p>
+    <p>Department of Computer Science</p>
+    <p>University of Sheffield, S1 4DT</p>
+    <p><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:xi.wang@sheffield.ac.uk">xi.wang@sheffield.ac.uk</a></p>
 
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+news: true
+latest_posts: false
+selected_papers: true
+social: true
 ---
 
-A lecturer (~Assistant Professor) of Natural Language Processing at The University of Sheffield (TUoS) with research interests in Interactive NLP, Conversational AI, and personalisation as well as relevant topics among Natural Language Processing (NLP) and Information Retrieval (IR). Before joining the University of Sheffield, I obtained my PhD from the University of Glasgow, supervised by [Prof. Iadh Ounis](https://www.dcs.gla.ac.uk/~ounis/) and [Prof. Craig Macdonald](https://www.dcs.gla.ac.uk/~craigm/) and focusing on the research topic of developing review-based recommender systems. After that, I joined the web intelligence group of University College London (UCL) as a postdoctoral researcher, supervised by [Prof. Emine Yilmaz](https://sites.google.com/site/emineyilmaz/home) and working on Task-oriented Dialogue Systems. My existing works have been published in top-tier international NLP and IR conferences, including ACL, EMNLP, AAAI, SIGIR, CIKM, WWW and ECIR. During the postdoctoral research period, joined with [Prof. Emine Yilmaz](https://sites.google.com/site/emineyilmaz/home), a research grant was awarded by Google for developing Knowledge-enriched task-oriented dialogue systems.
+I am a **Lecturer** (≈ Assistant Professor) in Natural Language Processing at the [University of Sheffield](https://www.sheffield.ac.uk/), affiliated with the [NLP Group](https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing). My research sits at the intersection of **Conversational AI**, **Information Retrieval**, **Personalisation**, and **AI for Mental Health**.
 
-I am actively looking for PhD students to work on topics related to proactive conversational information seeking, retrieval augmented generation and user simulation. If you are interested, please drop an email to xi.wang[at]sheffield.ac.uk with the subject starts with [PhD 2026].
+Before joining Sheffield, I completed my PhD at the [University of Glasgow](https://www.gla.ac.uk/) under the supervision of [Prof. Iadh Ounis](https://www.dcs.gla.ac.uk/~ounis/) and [Prof. Craig Macdonald](https://www.dcs.gla.ac.uk/~craigm/), where I developed review-based recommender systems. I then joined [University College London (UCL)](https://www.ucl.ac.uk/) as a Postdoctoral Research Associate in the Web Intelligence Group, working with [Prof. Emine Yilmaz](https://sites.google.com/site/emineyilmaz/home) on task-oriented dialogue systems — work supported by a **Google Research Workshop Grant** ($20,000).
+
+My work has appeared at top-tier venues including **ACL, EMNLP, NAACL, AAAI, SIGIR, CIKM, WWW**, and **ECIR**. My research group has published 1,000+ citations (h-index: 16).
+
+---
+
+#### Research Areas
+
+<div class="row mt-3">
+  <div class="col-sm-6">
+    <strong>🗣️ Conversational AI</strong><br>
+    Task-oriented dialogue, proactive information seeking, clarification questions, user simulation
+  </div>
+  <div class="col-sm-6">
+    <strong>🔍 Information Retrieval</strong><br>
+    Retrieval-augmented generation (RAG), neural IR, evaluation &amp; simulation frameworks
+  </div>
+</div>
+<div class="row mt-2 mb-3">
+  <div class="col-sm-6">
+    <strong>👤 Personalisation</strong><br>
+    Review-based &amp; multimodal recommendation, conversational recommendation, cold-start
+  </div>
+  <div class="col-sm-6">
+    <strong>🧠 AI for Mental Health</strong><br>
+    LLM-based depression screening, early risk prediction (eRisk), clinically-grounded agents
+  </div>
+</div>
+
+---
+
+#### PhD Opportunities
+
+I am actively looking for **PhD students** (2026 entry) to work on topics related to:
+- Proactive conversational information seeking
+- Retrieval-augmented generation
+- User simulation for IR and dialogue
+
+If you are interested, please email [xi.wang@sheffield.ac.uk](mailto:xi.wang@sheffield.ac.uk) with the subject line starting with **[PhD 2026]**.
