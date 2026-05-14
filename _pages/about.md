@@ -17,7 +17,7 @@ profile:
     <p>University of Sheffield, S1 4DT</p>
     <p><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:xi.wang@sheffield.ac.uk">xi.wang@sheffield.ac.uk</a></p>
 
-news: true
+news: false
 latest_posts: false
 selected_papers: false
 social: true
@@ -68,10 +68,14 @@ If you are interested, please email [xi.wang@sheffield.ac.uk](mailto:xi.wang@she
 
 ---
 
+#### News
+
+{% include news.html %}
+
+---
+
 #### Visitors
 
 <div class="visitor-map-container">
-  <!-- ClustrMaps visitor globe — replace PLACEHOLDER_HASH with your hash from clustrmaps.com -->
-  <!-- To get your hash: visit https://clustrmaps.com, enter https://wangxieric.github.io, and copy the embed code -->
   <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=rWA8hHXWguxWMopivLLK7tdshh6LS0MNpyDfByBBmA8&cl=ffffff&w=a"></script>
 </div>
