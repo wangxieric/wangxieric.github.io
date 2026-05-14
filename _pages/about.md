@@ -17,9 +17,10 @@ profile:
     <p>University of Sheffield, S1 4DT</p>
     <p><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:xi.wang@sheffield.ac.uk">xi.wang@sheffield.ac.uk</a></p>
 
-news: false
+news: true
 latest_posts: false
 selected_papers: false
+visitor_map: true
 social: true
 ---
 
@@ -65,17 +66,3 @@ I am actively looking for **PhD students** (2026 entry) to work on topics relate
 - Automatic Conversational Support for Mental Health
 
 If you are interested, please email [xi.wang@sheffield.ac.uk](mailto:xi.wang@sheffield.ac.uk) with the subject line starting with **[PhD 26/27]**.
-
----
-
-#### News
-
-{% include news.html %}
-
----
-
-#### Visitors
-
-<div class="visitor-map-container">
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=rWA8hHXWguxWMopivLLK7tdshh6LS0MNpyDfByBBmA8&cl=ffffff&w=a"></script>
-</div>
