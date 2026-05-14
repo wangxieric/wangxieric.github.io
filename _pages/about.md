@@ -19,7 +19,7 @@ profile:
 
 news: true
 latest_posts: false
-selected_papers: true
+selected_papers: false
 social: true
 ---
 
@@ -27,7 +27,7 @@ I am a **Lecturer** (≈ Assistant Professor) in Natural Language Processing at 
 
 Before joining Sheffield, I completed my PhD at the [University of Glasgow](https://www.gla.ac.uk/) under the supervision of [Prof. Iadh Ounis](https://www.dcs.gla.ac.uk/~ounis/) and [Prof. Craig Macdonald](https://www.dcs.gla.ac.uk/~craigm/), where I developed review-based recommender systems. I then joined [University College London (UCL)](https://www.ucl.ac.uk/) as a Postdoctoral Research Associate in the Web Intelligence Group, working with [Prof. Emine Yilmaz](https://sites.google.com/site/emineyilmaz/home) on task-oriented dialogue systems — work supported by a **Google Research Workshop Grant**.
 
-My work has appeared at top-tier venues including **ACL, EMNLP, NAACL, AAAI, SIGIR, CIKM, WWW**, and **ECIR**.
+My work has appeared at top-tier venues including **ACL, EMNLP, NAACL, AAAI, SIGIR, CIKM, WWW**, and **ECIR**. For a full list of publications, see my [Google Scholar profile](https://scholar.google.com/citations?user=nFmvLQgAAAAJ&hl=en).
 
 ---
 
@@ -65,3 +65,13 @@ I am actively looking for **PhD students** (2026 entry) to work on topics relate
 - Automatic Conversational Support for Mental Health
 
 If you are interested, please email [xi.wang@sheffield.ac.uk](mailto:xi.wang@sheffield.ac.uk) with the subject line starting with **[PhD 26/27]**.
+
+---
+
+#### Visitors
+
+<div class="visitor-map-container">
+  <!-- ClustrMaps visitor globe — replace PLACEHOLDER_HASH with your hash from clustrmaps.com -->
+  <!-- To get your hash: visit https://clustrmaps.com, enter https://wangxieric.github.io, and copy the embed code -->
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=rWA8hHXWguxWMopivLLK7tdshh6LS0MNpyDfByBBmA8&cl=ffffff&w=a"></script>
+</div>

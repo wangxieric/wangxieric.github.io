@@ -146,51 +146,87 @@ html[data-theme='dark'] .profile img {
 
 
 // ============================================================
-// NEWS TABLE
+// NEWS — BULLET LIST (Ruizhe-style)
 // ============================================================
 
 .news {
-  table.table {
-    font-family: 'Inter', sans-serif;
+  // Section heading
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 1rem;
+  }
 
-    tr {
+  ul.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      padding: 0.45rem 0;
       border-bottom: 1px solid var(--global-divider-color);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.91rem;
+      line-height: 1.6;
 
       &:last-child {
         border-bottom: none;
       }
-    }
 
-    th[scope="row"] {
-      font-family: 'Inter', sans-serif;
-      font-size: 0.76rem;
-      font-weight: 600;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: var(--global-theme-color);
-      white-space: nowrap;
-      padding-top: 0.75rem;
-      padding-bottom: 0.75rem;
-      vertical-align: top;
-    }
+      .news-date {
+        flex-shrink: 0;
+        font-size: 0.76rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--global-theme-color);
+        min-width: 7.5rem;
+      }
 
-    td {
-      font-size: 0.91rem;
-      line-height: 1.6;
-      padding-top: 0.75rem;
-      padding-bottom: 0.75rem;
-      vertical-align: top;
+      .news-sep {
+        color: var(--global-divider-color);
+        flex-shrink: 0;
+      }
+
+      .news-content {
+        flex: 1;
+        color: var(--global-text-color);
+
+        a.news-title {
+          color: var(--global-text-color);
+          text-decoration: none;
+
+          &:hover {
+            color: var(--global-theme-color);
+          }
+        }
+      }
     }
   }
 }
 
-// Section heading (e.g. "news" and "selected publications" on about page)
-.news h2,
+// Section heading for selected publications (non-about pages)
 .publications h2:not(.bibliography) {
   font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
   letter-spacing: -0.02em;
   margin-bottom: 1rem;
+}
+
+
+// ============================================================
+// VISITOR MAP
+// ============================================================
+
+.visitor-map-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
 }
 
 
