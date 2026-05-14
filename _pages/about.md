@@ -12,7 +12,7 @@ profile:
   image: me.jpg
   image_circular: false
   more_info: >
-    <p><i class="fas fa-map-marker-alt"></i> &nbsp;CG044 Regent Court</p>
+    <p><i class="fas fa-map-marker-alt"></i> &nbsp;COM135 Regent Court</p>
     <p>Department of Computer Science</p>
     <p>University of Sheffield, S1 4DT</p>
     <p><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:xi.wang@sheffield.ac.uk">xi.wang@sheffield.ac.uk</a></p>
