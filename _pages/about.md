@@ -13,7 +13,7 @@ profile:
   image_circular: false
   more_info: >
     <p><i class="fas fa-map-marker-alt"></i> &nbsp;COM135 Regent Court</p>
-    <p>Department of Computer Science</p>
+    <p>School of Computer Science</p>
     <p>University of Sheffield, S1 4DT</p>
     <p><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:xi.wang@sheffield.ac.uk">xi.wang@sheffield.ac.uk</a></p>
 
@@ -63,4 +63,4 @@ I am actively looking for **PhD students** (2026 entry) to work on topics relate
 - Retrieval-augmented generation
 - User simulation for IR and dialogue
 
-If you are interested, please email [xi.wang@sheffield.ac.uk](mailto:xi.wang@sheffield.ac.uk) with the subject line starting with **[PhD 2026]**.
+If you are interested, please email [xi.wang@sheffield.ac.uk](mailto:xi.wang@sheffield.ac.uk) with the subject line starting with **[PhD 26/27]**.
