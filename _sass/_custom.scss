@@ -355,6 +355,11 @@ html[data-theme='dark'] .profile img {
         color: var(--global-text-color-light);
         margin-bottom: 0.1rem;
 
+        // Force every child to stay inline so bold name doesn't break to its own line
+        a, strong, em, span {
+          display: inline !important;
+        }
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           color: var(--global-text-color-light);
@@ -364,6 +369,12 @@ html[data-theme='dark'] .profile img {
             color: var(--global-theme-color);
             text-decoration: none;
           }
+        }
+
+        .self-author {
+          display: inline !important;
+          font-weight: 700;
+          color: var(--global-text-color);
         }
 
         strong {
