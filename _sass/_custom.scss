@@ -526,6 +526,93 @@ hr {
 
 
 // ============================================================
+// LAB PAGE
+// ============================================================
+
+.lab-header {
+  .lab-logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .lab-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--global-text-color);
+    margin-bottom: 0.25rem;
+  }
+
+  .lab-tagline {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+  }
+}
+
+// Interaction pillar cards on the lab page
+.lab-pillars .card {
+  border: 1px solid var(--global-divider-color);
+  border-top: 3px solid var(--global-theme-color);
+  border-radius: 6px;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+
+  h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: var(--global-theme-color);
+  }
+
+  p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+    line-height: 1.65;
+  }
+}
+
+html[data-theme='dark'] .lab-pillars .card {
+  background: var(--global-bg-color);
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  }
+}
+
+// Dark-mode SVG logo invert so it remains visible
+html[data-theme='dark'] .lab-logo {
+  filter: brightness(1.4) saturate(0.9);
+}
+
+// Team member photo circles
+.team-member {
+  img {
+    border: 2px solid var(--global-divider-color);
+    object-fit: cover;
+    transition: border-color 0.2s ease;
+  }
+
+  &:hover img {
+    border-color: var(--global-theme-color);
+  }
+
+  h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.88rem;
+    margin-top: 0.4rem;
+  }
+}
+
+
+// ============================================================
 // BADGES ON ABOUT PAGE (research area rows)
 // ============================================================
 
