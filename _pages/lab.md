@@ -4,11 +4,12 @@ permalink: /lab/
 title: lab
 nav: true
 nav_order: 1
+hide_title: true
 ---
 
 <div class="lab-header text-center mb-5">
   <img src="{{ '/assets/img/lab_logo.svg' | relative_url }}" alt="Interactive NLP Research Lab" class="lab-logo mb-3" style="max-width: 320px; width: 100%;">
-  <h1 class="lab-title">Interactive NLP Research Lab</h1>
+  <!-- <h1 class="lab-title">Interactive NLP Research Lab</h1> -->
   <p class="lab-tagline text-muted">University of Sheffield &nbsp;·&nbsp; School of Computer Science</p>
 </div>
 
@@ -73,21 +74,25 @@ Our work spans **Conversational AI**, **Information Retrieval**, **Personalisati
     <small><a href="mailto:student@sheffield.ac.uk">student@sheffield.ac.uk</a></small>
   </div>
   -->
-  <div class="col-12 text-muted"><em>PhD student profiles coming soon.</em></div>
+  <div class="col-12 text-muted"><em>Feng Xia, Proactive Conversational Recommendation</em></div>
 </div>
 
 ### Postgraduate (MSc/MRes) Students
 
 <div class="row mt-3">
   <!-- Add postgraduate student entries here. -->
-  <div class="col-12 text-muted"><em>Postgraduate student profiles coming soon.</em></div>
+  <div class="col-12 text-muted"><em>Vismay Cheelaganahalli Vijaya Kumar, Conversational Asking Clarification Question </em></div>
+  <div class="col-12 text-muted"><em>Virthi Murali, Unsupervised Adaptive RAG</em></div>
 </div>
 
 ### Undergraduate Students & Project Students
 
 <div class="row mt-3">
   <!-- Add undergraduate student entries here. -->
-  <div class="col-12 text-muted"><em>Undergraduate student profiles coming soon.</em></div>
+  <div class="col-12 text-muted"><em>Yacine Zadi, Conversational Movie Recommendation</em></div>
+  <div class="col-12 text-muted"><em>Benjamin Foggo, Asking Clarification Question</em></div>
+  <div class="col-12 text-muted"><em>Dylan Harding-Murphy, Adaptive RAG</em></div>
+  <div class="col-12 text-muted"><em>Callum Pringle, Proactive Conversational Actions</em></div>
 </div>
 
 ---
