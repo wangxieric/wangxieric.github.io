@@ -3,7 +3,7 @@ layout: page
 permalink: /lab/
 title: lab
 nav: true
-nav_order: 5
+nav_order: 1
 ---
 
 <div class="lab-header text-center mb-5">
