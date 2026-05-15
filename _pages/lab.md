@@ -69,43 +69,37 @@ Our work spans **Conversational AI**, **Information Retrieval**, **Personalisati
 ### Current PhD Students
 
 <div class="row mt-3">
-  <!-- Add PhD student entries here. Example entry below: -->
-  <!--
-  <div class="col-md-4 mb-4 text-center">
-    <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name">
-    <h6 class="mb-0">Student Name</h6>
-    <small class="text-muted">Research topic</small><br>
-    <small><a href="mailto:student@sheffield.ac.uk">student@sheffield.ac.uk</a></small>
+  <div class="col-md-6 mb-3">
+    <div class="student-card">
+      <span class="student-name">Feng Xia</span>
+      <span class="student-topic">Proactive Conversational Recommendation</span>
+    </div>
   </div>
-  -->
-  <div class="col-md-4 mb-4 text-center">
-    <!-- <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name"> -->
-    <h6 class="mb-0">Feng Xia</h6>
-    <small class="text-muted">Proactive Conversational Recommendation</small><br>
-    <!-- <small><a href="mailto:student@sheffield.ac.uk">student@sheffield.ac.uk</a></small> -->
-  </div>
-  <!-- <div class="col-12 text-muted"><em>Feng Xia, Proactive Conversational Recommendation</em></div> -->
 </div>
 
 ### Affiliated PhD Students (Co-Supervised)
+
 <div class="row mt-3">
-  <div class="col-md-4 mb-4 text-center">
-    <!-- <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name"> -->
-    <h6 class="mb-0">Xingyu Deng</h6>
-    <small class="text-muted">co-supervised with Dr Mark Stevenson</small><br>
-    <small class="text-muted">Scientific Fact Checking</small><br>
+  <div class="col-md-6 mb-3">
+    <div class="student-card">
+      <span class="student-name">Xingyu Deng</span>
+      <span class="student-topic">Scientific Fact Checking</span>
+      <span class="student-cosup">co-supervised with Dr Mark Stevenson</span>
+    </div>
   </div>
-  <div class="col-md-4 mb-4 text-center">
-    <!-- <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name"> -->
-    <h6 class="mb-0">Mingzi Cao</h6>
-    <small class="text-muted">co-supervised with Prof. Nikos Aletras</small><br>
-    <small class="text-muted">Model Expansion for Large Language Models</small><br>
+  <div class="col-md-6 mb-3">
+    <div class="student-card">
+      <span class="student-name">Mingzi Cao</span>
+      <span class="student-topic">Model Expansion for Large Language Models</span>
+      <span class="student-cosup">co-supervised with Prof. Nikos Aletras</span>
+    </div>
   </div>
-  <div class="col-md-4 mb-4 text-center">
-    <!-- <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name"> -->
-    <h6 class="mb-0">Yanwen Peng</h6>
-    <small class="text-muted">co-supervised with Prof. Nikos Aletras</small><br>
-    <small class="text-muted">Communication in Multi-Agent System</small><br>
+  <div class="col-md-6 mb-3">
+    <div class="student-card">
+      <span class="student-name">Yanwen Peng</span>
+      <span class="student-topic">Communication in Multi-Agent Systems</span>
+      <span class="student-cosup">co-supervised with Prof. Nikos Aletras</span>
+    </div>
   </div>
 </div>
 
@@ -113,19 +107,47 @@ Our work spans **Conversational AI**, **Information Retrieval**, **Personalisati
 ### Postgraduate (MSc/MRes) Students
 
 <div class="row mt-3">
-  <!-- Add postgraduate student entries here. -->
-  <div class="col-12 text-muted"><em>Vismay Cheelaganahalli Vijaya Kumar, Conversational Asking Clarification Question </em></div>
-  <div class="col-12 text-muted"><em>Virthi Murali, Unsupervised Adaptive RAG</em></div>
+  <div class="col-md-6 mb-3">
+    <div class="student-card">
+      <span class="student-name">Vismay Cheelaganahalli Vijaya Kumar</span>
+      <span class="student-topic">Conversational Asking Clarification Questions</span>
+    </div>
+  </div>
+  <div class="col-md-6 mb-3">
+    <div class="student-card">
+      <span class="student-name">Virthi Murali</span>
+      <span class="student-topic">Unsupervised Adaptive RAG</span>
+    </div>
+  </div>
 </div>
 
-### Undergraduate Students & Project Students
+### Undergraduate &amp; Project Students
 
 <div class="row mt-3">
-  <!-- Add undergraduate student entries here. -->
-  <div class="col-12 text-muted"><em>Yacine Zadi, Conversational Movie Recommendation</em></div>
-  <div class="col-12 text-muted"><em>Benjamin Foggo, Asking Clarification Question</em></div>
-  <div class="col-12 text-muted"><em>Dylan Harding-Murphy, Adaptive RAG</em></div>
-  <div class="col-12 text-muted"><em>Callum Pringle, Proactive Conversational Actions</em></div>
+  <div class="col-md-6 mb-3">
+    <div class="student-card">
+      <span class="student-name">Yacine Zadi</span>
+      <span class="student-topic">Conversational Movie Recommendation</span>
+    </div>
+  </div>
+  <div class="col-md-6 mb-3">
+    <div class="student-card">
+      <span class="student-name">Benjamin Foggo</span>
+      <span class="student-topic">Asking Clarification Questions</span>
+    </div>
+  </div>
+  <div class="col-md-6 mb-3">
+    <div class="student-card">
+      <span class="student-name">Dylan Harding-Murphy</span>
+      <span class="student-topic">Adaptive RAG</span>
+    </div>
+  </div>
+  <div class="col-md-6 mb-3">
+    <div class="student-card">
+      <span class="student-name">Callum Pringle</span>
+      <span class="student-topic">Proactive Conversational Actions</span>
+    </div>
+  </div>
 </div>
 
 ---
