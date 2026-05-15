@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We will be organising the The 2nd EReL@MIR Workshop on Efficient Representation Learning for Multimodal Information Retrieval workshop at ACM Multimedia 2026 (ACM MM) conference. 
+We will be organising the 2nd EReL@MIR Workshop on Efficient Representation Learning for Multimodal Information Retrieval workshop at ACM Multimedia 2026 (ACM MM) conference. 
