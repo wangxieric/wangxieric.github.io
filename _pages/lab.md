@@ -5,6 +5,7 @@ title: lab
 nav: true
 nav_order: 1
 hide_title: true
+tab_title: iNLP
 ---
 
 <div class="lab-header text-center mb-5">
