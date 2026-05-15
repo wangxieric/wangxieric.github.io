@@ -9,7 +9,6 @@
         class="responsive-img-srcset"
         media="(max-width: {{ i }}px)"
         srcset="{{ img_path | relative_url }}-{{ i }}.webp"
-        onerror="this.remove()"
       />
     {% endfor -%}
     {% endif %}
