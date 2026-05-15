@@ -53,7 +53,7 @@ Our work spans **Conversational AI**, **Information Retrieval**, **Personalisati
 ## Research Themes
 
 - **Proactive Conversational Information Seeking** — systems that ask targeted questions to resolve uncertainty and satisfy complex information needs
-- **Retrieval-Augmented Generation (RAG)** — neural IR systems that ground LLM outputs in retrieved evidence
+- **Deep Research / Retrieval-Augmented Generation (RAG)** — Trustworthy generations that ground LLM outputs in retrieved evidence and/or iterative reasoning.
 - **User Simulation** — synthetic users for scalable evaluation of dialogue and IR systems
 - **Conversational Recommendation** — preference elicitation and cold-start personalisation through dialogue
 - **AI for Mental Health** — LLM-based tools for depression screening and emotionally-aware conversation
