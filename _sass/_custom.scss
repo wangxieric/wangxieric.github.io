@@ -551,6 +551,24 @@ hr {
   }
 }
 
+// Mission statement block
+.lab-mission {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.15rem;
+  font-style: italic;
+  line-height: 1.85;
+  color: var(--global-text-color);
+  border-left: 4px solid var(--global-theme-color);
+  background: var(--global-code-bg-color);
+  padding: 1.25rem 1.5rem;
+  border-radius: 0 6px 6px 0;
+  margin: 1.5rem 0 2rem;
+}
+
+html[data-theme='dark'] .lab-mission {
+  background: rgba(255, 255, 255, 0.04);
+}
+
 // Interaction pillar cards on the lab page
 .lab-pillars .card {
   border: 1px solid var(--global-divider-color);

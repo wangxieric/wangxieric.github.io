@@ -17,36 +17,40 @@ hide_title: true
 
 ## Overview
 
-The **Interactive NLP Research Lab** advances natural language processing techniques through principled interaction with four key pillars:
+<div class="lab-mission">
+  Our interactive NLP research lab advances the frontiers of natural language processing by architecting intelligent systems that actively learn, reason, and evolve through multi-dimensional interactions, driving toward a future where language technologies seamlessly support every aspect of human life. 
+</div>
+
+We pursue this mission through principled research across four interaction pillars:
 
 <div class="row mt-4 mb-4 lab-pillars">
   <div class="col-md-6 mb-4">
     <div class="card h-100 border-0 shadow-sm p-3">
       <h5><i class="fas fa-globe"></i> &nbsp;Environment</h5>
-      <p class="text-muted mb-0">Grounding language understanding in real-world contexts — from web documents and structured knowledge bases to dynamic, task-oriented environments where systems must reason and act.</p>
+      <p class="text-muted mb-0">Grounding language processing in diverse real-world scenarios, spanning open-ended digital ecosystems, interactive simulations, and dynamic workflows, where intelligent systems must actively perceive context, adapt, and execute actions.</p>
     </div>
   </div>
   <div class="col-md-6 mb-4">
     <div class="card h-100 border-0 shadow-sm p-3">
       <h5><i class="fas fa-user"></i> &nbsp;Human</h5>
-      <p class="text-muted mb-0">Building conversational systems that understand user intent, model preferences, ask clarifying questions, and adapt over time — putting human needs at the centre of NLP research.</p>
+      <p class="text-muted mb-0">Building collaborative systems that deeply align with user intent, learn from real-time feedback, and fluidly co-evolve with users, positioning human needs at the core of AI to intuitively support every aspect of daily life.</p>
     </div>
   </div>
   <div class="col-md-6 mb-4">
     <div class="card h-100 border-0 shadow-sm p-3">
       <h5><i class="fas fa-database"></i> &nbsp;Knowledge</h5>
-      <p class="text-muted mb-0">Integrating structured and unstructured knowledge sources into language models — through retrieval-augmented generation, knowledge graphs, and fact-grounded reasoning.</p>
+      <p class="text-muted mb-0">Integrating massive, heterogeneous information sources, from web-scale documents and structured knowledge bases to complex ontologies, powering language models with robust knowledge-grounded generation and verifiable, fact-grounded reasoning.</p>
     </div>
   </div>
   <div class="col-md-6 mb-4">
     <div class="card h-100 border-0 shadow-sm p-3">
       <h5><i class="fas fa-robot"></i> &nbsp;Agents</h5>
-      <p class="text-muted mb-0">Designing multi-agent NLP systems in which language models collaborate, critique, and specialise — enabling scalable, robust solutions for complex real-world problems.</p>
+      <p class="text-muted mb-0">Engineering autonomous multi-agent networks where specialized language models communicate, collaborate, and critique one another—unlocking collective intelligence to solve highly complex, large-scale challenges.</p>
     </div>
   </div>
 </div>
 
-Our work spans **Conversational AI**, **Information Retrieval**, **Personalisation**, and **AI for Mental Health**, and has been published at top venues including ACL, EMNLP, NAACL, SIGIR, AAAI, and CIKM.
+Our work spans **Conversational AI**, **Information Retrieval**, **Personalisation**, and **AI for Mental Health**, and has been published at top venues including ACL, EMNLP, NAACL, ICLR, SIGIR, AAAI, CIKM and ECIR.
 
 ---
 
@@ -75,7 +79,7 @@ Our work spans **Conversational AI**, **Information Retrieval**, **Personalisati
   </div>
   -->
   <div class="col-md-4 mb-4 text-center">
-    <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name">
+    <!-- <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name"> -->
     <h6 class="mb-0">Feng Xia</h6>
     <small class="text-muted">Proactive Conversational Recommendation</small><br>
     <!-- <small><a href="mailto:student@sheffield.ac.uk">student@sheffield.ac.uk</a></small> -->
