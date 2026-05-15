@@ -103,12 +103,6 @@ Our work spans **Conversational AI**, **Information Retrieval**, **Personalisati
     <small class="text-muted">co-supervised with Prof. Nikos Aletras</small><br>
     <small class="text-muted">Communication in Multi-Agent System</small><br>
   </div>
-  <div class="col-md-4 mb-4 text-center">
-    <!-- <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name"> -->
-    <h6 class="mb-0">Yanwen Peng</h6>
-    <small class="text-muted">co-supervised with Prof. Nikos Aletras</small><br>
-    <small class="text-muted">Communication in Multi-Agent System</small><br>
-  </div>
 </div>
 
 
