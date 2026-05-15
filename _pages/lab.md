@@ -74,8 +74,43 @@ Our work spans **Conversational AI**, **Information Retrieval**, **Personalisati
     <small><a href="mailto:student@sheffield.ac.uk">student@sheffield.ac.uk</a></small>
   </div>
   -->
-  <div class="col-12 text-muted"><em>Feng Xia, Proactive Conversational Recommendation</em></div>
+  <div class="col-md-4 mb-4 text-center">
+    <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name">
+    <h6 class="mb-0">Feng Xia</h6>
+    <small class="text-muted">Proactive Conversational Recommendation</small><br>
+    <!-- <small><a href="mailto:student@sheffield.ac.uk">student@sheffield.ac.uk</a></small> -->
+  </div>
+  <!-- <div class="col-12 text-muted"><em>Feng Xia, Proactive Conversational Recommendation</em></div> -->
 </div>
+
+### Affiliated PhD Students (Co-Supervised)
+<div class="row mt-3">
+  <div class="col-md-4 mb-4 text-center">
+    <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name">
+    <h6 class="mb-0">Xingyu Deng</h6>
+    <small class="text-muted">co-supervised with Dr Mark Stevenson</small><br>
+    <small class="text-muted">Scientific Fact Checking</small><br>
+  </div>
+  <div class="col-md-4 mb-4 text-center">
+    <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name">
+    <h6 class="mb-0">Mingzi Cao</h6>
+    <small class="text-muted">co-supervised with Prof. Nikos Aletras</small><br>
+    <small class="text-muted">Model Expansion for Large Language Models</small><br>
+  </div>
+  <div class="col-md-4 mb-4 text-center">
+    <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name">
+    <h6 class="mb-0">Yanwen Peng</h6>
+    <small class="text-muted">co-supervised with Prof. Nikos Aletras</small><br>
+    <small class="text-muted">Communication in Multi-Agent System</small><br>
+  </div>
+  <div class="col-md-4 mb-4 text-center">
+    <img src="{{ '/assets/img/student_photo.jpg' | relative_url }}" class="rounded-circle mb-2" width="80" height="80" alt="Student Name">
+    <h6 class="mb-0">Yanwen Peng</h6>
+    <small class="text-muted">co-supervised with Prof. Nikos Aletras</small><br>
+    <small class="text-muted">Communication in Multi-Agent System</small><br>
+  </div>
+</div>
+
 
 ### Postgraduate (MSc/MRes) Students
 
