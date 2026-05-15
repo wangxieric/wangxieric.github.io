@@ -41,7 +41,7 @@ My work has appeared at top-tier venues including **ACL, EMNLP, NAACL, AAAI, ICL
   </div>
   <div class="col-sm-6">
     <strong>🔍 Information Retrieval</strong><br>
-    Retrieval-augmented generation (RAG), neural IR, evaluation &amp; simulation frameworks
+    Deep Research, Retrieval-augmented generation (RAG), neural IR, evaluation &amp; simulation frameworks
   </div>
 </div>
 <div class="row mt-2 mb-3">
