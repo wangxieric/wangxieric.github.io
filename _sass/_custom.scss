@@ -300,7 +300,7 @@ html[data-theme='dark'] .profile img {
 
   ol.bibliography {
     li {
-      padding: 1rem 0;
+      padding: 0.6rem 0;
       border-bottom: 1px solid var(--global-divider-color);
       margin-bottom: 0 !important;
 
@@ -308,25 +308,36 @@ html[data-theme='dark'] .profile img {
         border-bottom: none;
       }
 
-      .abbr abbr {
-        border-radius: 3px;
-        font-family: 'Inter', sans-serif;
-        font-size: 0.68rem;
-        font-weight: 700;
-        letter-spacing: 0.07em;
-        padding-left: 0.65rem;
-        padding-right: 0.65rem;
-        text-transform: uppercase;
+      // Keep badge and content flush, no extra row gutters
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+        align-items: flex-start;
+      }
+
+      .abbr {
+        padding-top: 0.15rem;
+
+        abbr {
+          border-radius: 3px;
+          font-family: 'Inter', sans-serif;
+          font-size: 0.68rem;
+          font-weight: 700;
+          letter-spacing: 0.07em;
+          padding-left: 0.6rem;
+          padding-right: 0.6rem;
+          text-transform: uppercase;
+        }
       }
 
       .title {
         font-family: 'Playfair Display', serif;
-        font-size: 1rem;
+        font-size: 0.97rem;
         font-weight: 700;
         letter-spacing: -0.01em;
-        line-height: 1.4;
+        line-height: 1.35;
+        margin-bottom: 0.1rem;
 
-        // Linked titles
         a {
           color: var(--global-text-color);
           text-decoration: none;
@@ -334,15 +345,15 @@ html[data-theme='dark'] .profile img {
 
           &:hover {
             color: var(--global-theme-color);
-            text-decoration: none;
           }
         }
       }
 
       .author {
-        font-size: 0.87rem;
-        line-height: 1.6;
+        font-size: 0.84rem;
+        line-height: 1.5;
         color: var(--global-text-color-light);
+        margin-bottom: 0.1rem;
 
         a {
           border-bottom: 1px dashed var(--global-theme-color);
@@ -355,14 +366,12 @@ html[data-theme='dark'] .profile img {
           }
         }
 
-        // Self-author: bold and highlighted
-        > strong {
+        strong {
           font-weight: 700;
           color: var(--global-text-color);
         }
 
-        // Legacy em support
-        > em {
+        em {
           font-style: normal;
           font-weight: 700;
           color: var(--global-text-color);
@@ -370,25 +379,36 @@ html[data-theme='dark'] .profile img {
       }
 
       .periodical {
-        font-size: 0.87rem;
+        font-size: 0.84rem;
         font-style: italic;
+        line-height: 1.4;
+        margin-bottom: 0.15rem;
+
+        &:empty {
+          display: none;
+        }
       }
 
-      .links a.btn {
-        font-family: 'Inter', sans-serif;
-        font-size: 0.7rem;
-        font-weight: 600;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        border-radius: 3px;
-        padding: 0.18rem 0.65rem;
-        transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+      .links {
+        margin-top: 0.2rem;
 
-        &:hover {
-          background-color: var(--global-theme-color) !important;
-          color: white !important;
-          border-color: var(--global-theme-color) !important;
-          text-decoration: none;
+        a.btn {
+          font-family: 'Inter', sans-serif;
+          font-size: 0.68rem;
+          font-weight: 600;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          border-radius: 3px;
+          padding: 0.12rem 0.55rem;
+          margin-bottom: 0.15rem;
+          transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+
+          &:hover {
+            background-color: var(--global-theme-color) !important;
+            color: white !important;
+            border-color: var(--global-theme-color) !important;
+            text-decoration: none;
+          }
         }
       }
     }
