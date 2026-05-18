@@ -65,6 +65,7 @@ hide_title: true
     <span class="venue-badge">ACM TOIS</span>
     <span class="venue-badge">IEEE TKDE</span>
     <span class="venue-badge">Information Processing &amp; Management</span>
+    <span class="venue-badge">Frontiers in Psychiatry</span>
   </div>
 </div>
 
