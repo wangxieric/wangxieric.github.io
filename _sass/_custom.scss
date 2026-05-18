@@ -526,6 +526,126 @@ hr {
 
 
 // ============================================================
+// SERVICE / ACADEMIC RECORD PAGE
+// ============================================================
+
+.service-page-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.2rem;
+}
+
+.service-page-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0;
+}
+
+.service-intro {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.92rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.75rem;
+}
+
+.service-subsection {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.6rem;
+}
+
+// Individual timeline-style entry
+.service-entry {
+  display: flex;
+  gap: 1.25rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+  align-items: flex-start;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .service-meta {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--global-theme-color);
+    min-width: 4.5rem;
+    padding-top: 0.15rem;
+    flex-shrink: 0;
+  }
+
+  .service-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .service-role {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.97rem;
+    font-weight: 700;
+    color: var(--global-text-color);
+    line-height: 1.3;
+  }
+
+  .service-org {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--global-theme-color);
+    line-height: 1.4;
+  }
+
+  .service-note {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.82rem;
+    color: var(--global-text-color-light);
+    line-height: 1.5;
+    margin-top: 0.1rem;
+  }
+}
+
+// Venue badge grid
+.venue-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.venue-badge {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  background: rgba(29, 78, 216, 0.08);
+  border: 1px solid rgba(29, 78, 216, 0.2);
+  border-radius: 3px;
+  padding: 0.2rem 0.55rem;
+}
+
+html[data-theme='dark'] .venue-badge {
+  background: rgba(29, 78, 216, 0.15);
+  border-color: rgba(96, 165, 250, 0.3);
+  color: #93c5fd;
+}
+
+
+// ============================================================
 // LAB PAGE
 // ============================================================
 

@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Xi Wang",
-    "label": "Lecturer of NLP",
+    "label": "Lecturer in Natural Language Processing",
     "image": "",
     "email": "xi.wang@sheffield.ac.uk",
-    "phone": "+44(0)7749338541",
-    "url": "www.xiwangeric.com",
-    "summary": "A natural language processing researcher focused on the domains of conversational AI, personlisation, retrieval augmented generation, fairness and relevant research topics in the domain of natural language processing.",
+    "phone": "",
+    "url": "https://wangxieric.github.io",
+    "summary": "I am a Lecturer (≈ Assistant Professor) in Natural Language Processing at the University of Sheffield. My research advances conversational AI, information retrieval, personalisation, and AI for mental health — with a focus on systems that actively interact with humans, knowledge, and agents to support everyday life.",
     "location": {
-      "address": "CG044 Regent Court, Department of Computer Science, the University of Sheffield",
+      "address": "COM135 Regent Court, School of Computer Science",
       "postalCode": "S1 4DT",
       "city": "Sheffield",
       "countryCode": "UK",
@@ -16,68 +16,89 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
+        "network": "Google Scholar",
         "username": "Xi Wang",
-        "url": "https://twitter.com/wangxieric"
+        "url": "https://scholar.google.com/citations?user=nFmvLQgAAAAJ"
       }
     ]
   },
   "work": [
     {
-      "name": "NLP group, Department of Computer Science, the University of Sheffield",
-      "position": "Lecturer",
-      "url": "https://example.com",
+      "name": "University of Sheffield",
+      "position": "Lecturer in Natural Language Processing",
+      "url": "https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing",
       "startDate": "2024-03-01",
-      "endDate": "Now",
-      "summary": "Research on conversational AI, personalisation, retrieval augmented generation and fairness.",
-      "highlights": [
-      ]
+      "endDate": "present",
+      "summary": "NLP Group, School of Computer Science. Research on conversational AI, retrieval-augmented generation, personalisation, user simulation, and AI for mental health. Teaching and PhD supervision.",
+      "highlights": []
     },
     {
-      "name": "Web Intelligence Group, School of Computer Science, University College London",
+      "name": "University College London (UCL)",
       "position": "Postdoctoral Research Associate",
-      "url": "https://example.com",
+      "url": "https://www.ucl.ac.uk/computer-science/research/research-groups/web-intelligence-group",
       "startDate": "2022-06-01",
       "endDate": "2024-03-01",
-      "summary": "Research on task-oriented dialogue systems, information retrieval and natural language processing.",
-      "highlights": [
-      ]
+      "summary": "Web Intelligence Group, Department of Computer Science. Worked with Prof. Emine Yilmaz on task-oriented dialogue systems and information retrieval, supported by a Google Research Workshop Grant.",
+      "highlights": []
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Glasgow, Glasgow, UK",
+      "institution": "University of Glasgow",
       "url": "https://www.gla.ac.uk/schools/computing/",
-      "area": "Recommender Systems",
-      "studyType": "PhD",
-      "startDate": "2017-10-10",
+      "area": "Natural Language Processing & Recommender Systems",
+      "studyType": "PhD in Computer Science",
+      "startDate": "2017-10-01",
       "endDate": "2022-06-01",
       "score": "",
       "courses": [
-        "Review-based Recommender Systems",
-        "Users' Adoption of Information in Recommender Systems"
+        "Thesis: Review-based Recommender Systems",
+        "Supervisors: Prof. Iadh Ounis and Prof. Craig Macdonald"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Co-Recipient of Google research workshop on Action, Task and User Journey ($20,000), together with Prof. Emine Yilmaz",
-      "date": "2022-10-29",
+      "title": "Google Research Workshop Grant — Action, Task and User Journey",
+      "date": "2022-10-01",
       "awarder": "Google",
-      "summary": "A workshop grant to support the research on task-oriented dialogue systems. The corresponding research outcomes have been published in AAAI 2023 and EMNLP 2023"
+      "summary": "Co-recipient with Prof. Emine Yilmaz (UCL). $20,000 grant supporting research on task-oriented dialogue systems. Outcomes published at AAAI 2023 and EMNLP 2023."
     },
     {
-      "title": "Gold Medal of the Provincial ACM-ICPC International Collegiate Programming Contest",
+      "title": "Gold Medal — Provincial ACM-ICPC International Collegiate Programming Contest",
       "date": "2015-01-01",
       "awarder": "ACM-ICPC",
-      "summary": "The award is given to the top ranked team in the provincial ACM-ICPC programming contest."
+      "summary": "Awarded to the top-ranked team in the provincial ACM-ICPC programming contest."
     }
   ],
   "certificates": [],
   "publications": [],
-  "skills": [],
-  "languages": [],
+  "skills": [
+    {
+      "name": "Research Areas",
+      "level": "",
+      "keywords": [
+        "Conversational AI",
+        "Information Retrieval",
+        "Retrieval-Augmented Generation",
+        "Personalisation & Recommendation",
+        "AI for Mental Health",
+        "User Simulation",
+        "Large Language Models"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Native"
+    }
+  ],
   "interests": [],
   "references": [],
   "projects": []
