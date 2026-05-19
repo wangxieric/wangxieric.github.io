@@ -107,7 +107,7 @@ hide_title: true
   <div class="service-entry">
     <div class="service-meta">2026</div>
     <div class="service-body">
-      <span class="service-role">From language modelling to Converational AI for Mental Health Support </span>
+      <span class="service-role">From Language Modelling to Converational AI for Mental Health Support </span>
       <span class="service-org">AI for Health in Ghana Workshop/Summer School &nbsp;·&nbsp; Accra, Ghana</span>
     </div>
   </div>
@@ -130,7 +130,7 @@ hide_title: true
     <div class="service-body">
       <span class="service-role">eRisk: Early Risk Prediction on the Internet</span>
       <span class="service-org">CLEF 2025-2026 &nbsp;·&nbsp; Madrid, Spain (2025) &nbsp; Jena, Germany (2026)</span>
-      <span class="service-note">Act as lead organiser of the conversational depression detection task </span>
+      <span class="service-note">Act as the lead organiser of the conversational depression detection task. </span>
     </div>
   </div>
   <div class="service-entry">
@@ -138,7 +138,7 @@ hide_title: true
     <div class="service-body">
       <span class="service-role">ProActLLM: Proactive Conversational Information Seeking with Large Language Models</span>
       <span class="service-org">CIKM 2025 &nbsp;·&nbsp; Seoul, South Korea</span>
-      <span class="service-note">Act as lead organiser to group research contributions towards proactive AI. </span>
+      <span class="service-note">Act as the lead organiser to group research contributions towards proactive AI. </span>
     </div>
   </div>
   <div class="service-entry">
@@ -146,7 +146,7 @@ hide_title: true
     <div class="service-body">
       <span class="service-role">Second Workshop on Multimodal AI</span>
       <span class="service-org">Sheffield, UK</span>
-      <span class="service-note">Led by Professor Haiping Lu at University of Sheffield </span>
+      <span class="service-note">Collaborate with Professor Haiping Lu and collegues at University of Sheffield for workshop organisation.</span>
     </div>
   </div>
 </div>
