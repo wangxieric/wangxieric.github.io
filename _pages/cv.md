@@ -126,6 +126,14 @@ hide_title: true
 
 <div class="service-section mb-4">
   <div class="service-entry">
+    <div class="service-meta">2025-2026</div>
+    <div class="service-body">
+      <span class="service-role">eRisk: Early Risk Prediction on the Internet</span>
+      <span class="service-org">CLEF 2025-2026 &nbsp;·&nbsp; Madrid, Spain (2025) &nbsp; Jena, Germany (2026)</span>
+      <span class="service-note">Act as lead organiser of the conversational depression detection task </span>
+    </div>
+  </div>
+  <div class="service-entry">
     <div class="service-meta">2025</div>
     <div class="service-body">
       <span class="service-role">ProActLLM: Proactive Conversational Information Seeking with Large Language Models</span>
