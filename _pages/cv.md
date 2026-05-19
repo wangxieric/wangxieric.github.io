@@ -46,15 +46,13 @@ hide_title: true
     <span class="venue-badge">EMNLP</span>
     <span class="venue-badge">NAACL</span>
     <span class="venue-badge">EACL</span>
-    <span class="venue-badge">COLING</span>
-    <span class="venue-badge">AAAI</span>
-    <span class="venue-badge">IJCAI</span>
+    <span class="venue-badge">COLM</span>
   </div>
 
   <h4 class="service-subsection mt-3">Information Retrieval</h4>
   <div class="venue-grid">
     <span class="venue-badge">SIGIR</span>
-    <span class="venue-badge">CIKM</span>
+    <span class="venue-badge">CIKM (SPC)</span>
     <span class="venue-badge">WWW</span>
     <span class="venue-badge">ECIR</span>
     <span class="venue-badge">WSDM</span>
