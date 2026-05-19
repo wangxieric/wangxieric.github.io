@@ -46,6 +46,7 @@ hide_title: true
     <span class="venue-badge">EMNLP</span>
     <span class="venue-badge">NAACL</span>
     <span class="venue-badge">EACL</span>
+    <span class="venue-badge">NLPCC (AC)</span>
     <span class="venue-badge">COLM</span>
   </div>
 
