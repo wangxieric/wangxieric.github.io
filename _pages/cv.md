@@ -63,6 +63,7 @@ hide_title: true
     <span class="venue-badge">ACM TOIS</span>
     <span class="venue-badge">IEEE TKDE</span>
     <span class="venue-badge">Information Processing &amp; Management</span>
+    <span class="venue-badge">PLOS Digital Health</span>
     <span class="venue-badge">Frontiers in Psychiatry</span>
   </div>
 </div>
@@ -103,6 +104,13 @@ hide_title: true
 ## Invited Talks
 
 <div class="service-section mb-4">
+  <div class="service-entry">
+    <div class="service-meta">2026</div>
+    <div class="service-body">
+      <span class="service-role">From language modelling to Converational AI for Mental Health Support </span>
+      <span class="service-org">AI for Health in Ghana Workshop/Summer School &nbsp;·&nbsp; Accra, Ghana</span>
+    </div>
+  </div>
   <div class="service-entry">
     <div class="service-meta">2025</div>
     <div class="service-body">
