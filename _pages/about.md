@@ -24,7 +24,7 @@ visitor_map: true
 social: true
 ---
 
-I am a **Lecturer** (≈ Assistant Professor) in Natural Language Processing at the [University of Sheffield](https://www.sheffield.ac.uk/), affiliated with the [NLP Group](https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing). My research sits at the intersection of **Conversational AI**, **Information Retrieval**, **Personalisation**, and **AI for Mental Health**.
+I am a **Lecturer** (≈ Assistant Professor) in Natural Language Processing at the [University of Sheffield](https://www.sheffield.ac.uk/), PI of the Interactive NLP ([iNLP](https://www.xiwangeric.com/lab/)) lab, affiliated with the [NLP Group](https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing). My research sits at the intersection of **Conversational AI**, **Information Retrieval**, **Personalisation**, and **AI for Mental Health**.
 
 Before joining Sheffield, I completed my PhD at the [University of Glasgow](https://www.gla.ac.uk/) under the supervision of [Prof. Iadh Ounis](https://www.dcs.gla.ac.uk/~ounis/) and [Prof. Craig Macdonald](https://www.dcs.gla.ac.uk/~craigm/), where I developed review-based recommender systems. I then joined [University College London (UCL)](https://www.ucl.ac.uk/) as a Postdoctoral Research Associate in the Web Intelligence Group, working with [Prof. Emine Yilmaz](https://sites.google.com/site/emineyilmaz/home) on task-oriented dialogue systems — work supported by a **Google Research Workshop Grant**.
 
